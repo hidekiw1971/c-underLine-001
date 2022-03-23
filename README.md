@@ -1,8 +1,10 @@
 # compornent（共通部品）
 
 ## イメージ画像
+<img width="384" alt="image" src="https://user-images.githubusercontent.com/99580997/159642446-c814e7f2-7d3d-46cc-b5c9-8c96c2be160b.png">
+<img width="776" alt="image" src="https://user-images.githubusercontent.com/99580997/159642490-774c498a-8ad2-4be4-b666-70e208a8aacf.png">
+<img width="1087" alt="image" src="https://user-images.githubusercontent.com/99580997/159642546-f817863a-4497-45b6-8855-e25dd91e5869.png">
 
-- xxx
 
 ## 概要
 
@@ -27,10 +29,14 @@
 ## w3c html チェック結果
 
 - https://validator.w3.org/nu/
+- <img width="776" alt="image" src="https://user-images.githubusercontent.com/99580997/159642640-380e5993-e14b-4754-8513-bb9f91d5c83b.png">
+
 
 ## w3c css チェック結果
 
 - https://jigsaw.w3.org/css-validator/
+- <img width="1782" alt="image" src="https://user-images.githubusercontent.com/99580997/159642698-e3347716-1481-4b3a-9000-6f71c32cff1e.png">
+
 
 ## portfolio url:
 
