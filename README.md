@@ -6,7 +6,7 @@
 
 ## 概要
 
-- ｘｘｘ
+- ホバー時にアンダーラインを表示
 
 ## 仕様
 
@@ -22,7 +22,7 @@
 ## 使い方
 
 - 「copy start」から「copy end」をコピペ。
-- css: src -> module -> xxx をコピペ。
+- css: src -> module -> box1 をコピペ。
 
 ## w3c html チェック結果
 
@@ -34,15 +34,20 @@
 
 ## portfolio url:
 
-- https://c-0000.wtb.cfbx.jp/
+- https://c-0033.wtb.cfbx.jp/
 
 ## 参考にしたサイト
 
-- xxx
+- CSS：ホバー時のアンダーラインアニメーションの実装サンプルと mixin を用いた実装方法
+- https://www.nxworld.net/css-hover-underline-animation-examples-and-sass-mixin.html
+- 【CSS】transform: scale()で要素を拡大・縮小する方法
+- https://web-dev.tech/front-end/css/transform-scale-up-down/
+- transform-origin プロパティの意味と使い方
+- https://dekiru.net/article/13252/
 
 ## 更新履歴
 
-- 2022/mm/dd 初版 作成完了
+- 2022/3/23 初版 作成完了
 
 ## 環境・使い方
 

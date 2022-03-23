@@ -1,0 +1,13 @@
+@use "global" as *;
+.box1__ajust {
+  // size
+  height: 100%;
+  // ajust
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

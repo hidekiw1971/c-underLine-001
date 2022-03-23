@@ -1,0 +1,35 @@
+@use "global" as *;
+.box1__link {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
+
+// box1__linkの擬似要素
+.box1__link::after {
+  position: absolute;
+  bottom: rem(-4);
+  left: 0;
+  content: "";
+  width: 100%;
+  height: rem(2);
+  background-color: #ffd700;
+  // ホバーしてない時は、x軸(横)→0、y軸(縦)1に設定し、アンダーラインを非表示
+  transform: scale(0, 1);
+  transform-origin: left top; // アニメーションの始点を設定(左→右)
+  transition: transform 0.3s;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
+
+// box1__linkの擬似要素
+.box1__link:hover::after {
+  // ホバー時は、x軸(横)→1、y軸(縦)1に設定してアンダーラインを表示
+  transform: scale(1, 1);
+}

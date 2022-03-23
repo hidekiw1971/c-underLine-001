@@ -1,0 +1,15 @@
+@use "global" as *;
+.box1__inner {
+  // depict
+  display: inline-block;
+  // size
+  width: rem(300);
+  height: rem(50);
+  // decoration
+  background-color: #333;
+  color: #fff;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

@@ -1,5 +1,7 @@
 @use "global" as *;
-.xxx {
+.box1 {
+  // depict
+  display: inline-block;
   @include mq(md) {
   }
   @include mq(xl) {
